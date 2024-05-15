@@ -62,7 +62,7 @@ export default function Home() {
       //         </div>
       //     </div>
       // </main>
-      <div className="hero min-h-screen">
+      <div className="hero min-h-screen mt-20 lg:mt-0">
           <div className="flex flex-col lg:flex-row h-full w-full justify-center items-center">
               <div className={'w-full'}>
                   <div className={"py-6 p-6 lg:p-40"}>
@@ -90,12 +90,14 @@ export default function Home() {
                       </div>
                   </div>
               </div>
-              <Image src={'/images/image1.jpeg'}
-                     alt={'Image représentant un groupe de personnes âgées avec des animaux sur leurs genoux'}
-                     width={500}
-                     height={500}
-                     className={'w-full'}
-              />
+              <div className={"w-full h-full max-w-full overflow-hidden"}>
+                  <Image src={'/images/image1.jpeg'}
+                         alt={'Image représentant un groupe de personnes âgées avec des animaux sur leurs genoux'}
+                         width={500}
+                         height={500}
+                         className={'h-full w-full object-cover aspect-square'}
+                  />
+              </div>
           </div>
       </div>
   );
