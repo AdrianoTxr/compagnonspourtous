@@ -10,6 +10,9 @@ const figtree = Figtree({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Compagnons pour Tous",
   description: "Projet associatif pour objectif de recréer un lien social entre les personnes agées, les animaux et leurs maîtres",
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({
