@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-      <html lang="fr" data-theme="corporate">
+      <html lang="fr" data-theme="corporate" className="scroll-smooth">
         <Script src="https://kit.fontawesome.com/6358dc97bb.js" crossOrigin="anonymous" />
         <body className={figtree.className}>
             <Header />
