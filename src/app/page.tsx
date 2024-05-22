@@ -7,7 +7,6 @@ import DialogAlert from "@/components/dialog";
 export default function Home() {
   return (
       <>
-          <DialogAlert />
           <div className="hero min-h-screen mt-20 lg:mt-0">
               <div
                   className="absolute inset-x-0 -top-40 -z-50 transform-gpu overflow-hidden blur-3xl sm:-top-80"
